@@ -34,6 +34,14 @@ function tie() {
   document.getElementById('alert').innerHTML = alertBox;
 }
 
+function dontClick() {
+  let alertBox = `<div class="col-12" id="result"><div class='alert alert-info'>
+    <h1>Don't click that.</h1><p>You lose a point</p><br><button class="btn btn-primary" onclick="replay()">Back to game</button>
+</div>`
+  document.getElementById('alert').innerHTML = alertBox;
+  playerScore--;
+}
+
 function PlayerChoice(choice) {
   if (computerAnswer == choice) {
     tie();
