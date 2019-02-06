@@ -1,0 +1,38 @@
+.Image-Style {
+  height:25vh;
+  width:100%;
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  transition: 0.5s ease;
+}
+.background-image {
+  background-image: url('https://images.unsplash.com/photo-1487925876428-ebd8a23ee1d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2029&q=80');
+  background-size:contain;
+  background-position:center;
+  min-height:100vh;
+}
+
+.Rock {
+  background-image: url("//pngimage.net/wp-content/uploads/2018/05/dwayne-johnson-head-png.png");
+}
+.Paper {
+background-image: url('//i.ebayimg.com/images/g/qr8AAOSwpaVcLGJI/s-l300.jpg');
+}
+
+.Scissors {
+  background-image: url('https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/School-Clipart/Transparent_Scissors_PNG_Clipart_Picture.png?m=1507172109');
+}
+
+
+div.Rock:hover{
+transform:scale(1.2);
+}
+
+div.Paper:hover{
+transform:scale(1.2);
+}
+
+div.Scissors:hover{
+      transform:scale(1.2);
+      }

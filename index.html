@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>RPS Game</title>
+</head>
+
+<body>
+
+  <section class="container-fluid background-image text-center text-white">
+    <h1><u>Rock Paper Scissors Game</u></h1>
+    <h3>Choose Wisely...</h3>
+    <div class="row pt-5">
+      <div class="col-12" id="alert"></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class='Rock Image-Style' onclick="PlayerChoice('Rock')"></div>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class='Paper img-fluid Image-Style' onclick="PlayerChoice('Paper')"></div>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class='Scissors img-fluid Image-Style' onclick="PlayerChoice('Scissors')"></div>
+      </div>
+    </div>
+    <div class="row text-white">
+      <div class="col-3 mt-5">
+        <h1 id="player"></h1>
+      </div>
+      <iframe src="https://giphy.com/embed/BmmfETghGOPrW" width="480" height="206" frameBorder="0" class="giphy-embed my-5 col-6
+      style="
+        max-width:100%"></iframe>
+      <div class="col-3 mt-5">
+        <h1 id="computer"></h1>
+      </div>
+      <p><a href="https://giphy.com/gifs/reaction-BmmfETghGOPrW"></a></p>
+    </div>
+  </section>
+  <script src="app/app.js"></script>
+</body>
+
+</html>
